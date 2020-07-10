@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+    <title type="text">Dillonh</title>
+    <subtitle type="html">一个不知名的网站</subtitle>
+    <updated>2020-07-10T16:11:23&#43;08:00</updated>
+    <id>https://hdw2624913924.github.io/</id>
+    <link rel="alternate" type="text/html" href="https://hdw2624913924.github.io/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://hdw2624913924.github.io/atom.xml" />
+    <author>
+            <name>Dillonh</name>
+            <uri>https://hdw2624913924.github.io/</uri>
+            
+                <email>hdw2624913924@gmail.com</email>
+            </author>
+    <rights>[Dillonh](https://github.com/hdw2624913924)</rights>
+    <generator uri="https://gohugo.io/" version="0.72.0">Hugo</generator>
+        <entry>
+            <title type="text">实习期间的学习资料</title>
+            <link rel="alternate" type="text/html" href="https://hdw2624913924.github.io/posts/%E5%AE%9E%E4%B9%A0%E6%9C%9F%E9%97%B4%E7%9A%84%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/" />
+            <id>https://hdw2624913924.github.io/posts/%E5%AE%9E%E4%B9%A0%E6%9C%9F%E9%97%B4%E7%9A%84%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/</id>
+            <updated>2020-07-10T10:27:05&#43;08:00</updated>
+            <published>2020-06-02T12:33:00&#43;00:00</published>
+            <author>
+                    <name>Dillonh</name>
+                    <uri>https://hdw2624913924.github.io/</uri>
+                    <email>hdw2624913924@gmail.com</email>
+                    </author>
+            <rights>[Dillonh](https://github.com/hdw2624913924)</rights><summary type="html">GO 传送门 GO语言圣经：传送门 mysql b站视频：传送门 gorm：传送门 gorm连接数据库： 1……</summary>
+            
+                <content type="html">&lt;h2 id=&#34;go&#34;&gt;GO&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://c.biancheng.net/golang/intro/&#34;&gt;传送门&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;GO语言圣经：&lt;a href=&#34;https://books.studygolang.com/gopl-zh/&#34;&gt;传送门&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;mysql&#34;&gt;mysql&lt;/h2&gt;
+&lt;p&gt;b站视频：&lt;a href=&#34;https://www.bilibili.com/video/BV1U7411V78R?p=1&#34;&gt;传送门&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;gorm：&lt;a href=&#34;https://gorm.io/zh_CN/docs&#34;&gt;传送门&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;gorm连接数据库：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;nx&#34;&gt;db&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;err&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;gorm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Open&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;mysql&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;username:password@tcp(ip:port)/databasename?charset=utf8mb4&amp;amp;parseTime=True&amp;amp;loc=Local&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//tcp可以用其他协议来代替，port一般为3306
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;查询最大值：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;nx&#34;&gt;rows&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;err&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;db&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Table&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;score&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Select&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;MAX(degree)&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Rows&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;err&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+   &lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;查询最大值错误&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+   &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;mx&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;float64&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rows&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+   &lt;span class=&#34;nx&#34;&gt;err&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rows&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Scan&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;mx&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+   &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;err&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+      &lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;错误&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+      &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;
+   &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;查询从第x行(从0开始)开始的n个人：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;score&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Score&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;db&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Order&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;degree desc&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Offset&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Limit&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Find&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;score&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;查询平均值：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;avgs&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;float64&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;rows&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;err&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;db&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Table&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;score&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Group&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;cno&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Select&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;AVG(degree)&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Rows&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rows&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+   &lt;span class=&#34;nx&#34;&gt;rows&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Scan&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;avgs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]))&lt;/span&gt;
+   &lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;avgs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+   &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;多表查询：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//用一个新的struct来存储答案，借助join连接来实现多表查询，下面的例子是三表查询
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Result&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;struct&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+   &lt;span class=&#34;nx&#34;&gt;Sname&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;string&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;`gorm:&amp;#34;column:sname&amp;#34;`&lt;/span&gt;
+   &lt;span class=&#34;nx&#34;&gt;Cname&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;string&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;`gorm:&amp;#34;column:cname&amp;#34;`&lt;/span&gt;
+   &lt;span class=&#34;nx&#34;&gt;Degree&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;string&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;`gorm:&amp;#34;column:degree&amp;#34;`&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;result&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Result&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;db&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Table&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;student&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Select&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;sname, cname, degree&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Joins&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;JOIN score on student.sno = score.sno&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Joins&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;JOIN course on course.cno = score.cno&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Scan&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;result&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;redis&#34;&gt;redis&lt;/h2&gt;
+&lt;p&gt;学习链接：&lt;a href=&#34;http://redisdoc.com&#34;&gt;redisdoc.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;go-redis教程：&lt;a href=&#34;https://www.tizi365.com/archives/290.html&#34;&gt;https://www.tizi365.com/archives/290.html&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-redis&#34; data-lang=&#34;redis&#34;&gt;DEL key //删除key，返回被删除数的数量
+DUMP key //序列化key，并返回序列化的值
+EXISTS key //检查是否存在key，存在返回1否则返回0
+EXPIRE key secod //给key增加过期时间，可以s为单位，成功返回1，否则返回0
+KEYS pattern //查找符合模式的key，?匹配一个字符，*匹配多个字符
+MOVE key db //将当前数据库的key移动到给定数据库，成功1失败0
+PERSIST key //移除key的过期时间，成功1失败0
+TTL key //以秒为单位返回key的剩余过期时间，key不存在-2，存在没有设置过期时间-1
+RANDOMKEY //从当前数据库随机返回一个key，数据库为空返回nil
+RENAME key newkey //修改key的名字，成功返回ok否则返回一个错误，注意如果newkey存在则发生覆盖
+RENAMENX key newkey //仅当newkey不存在时进行修改，修改成功1，如果newkey存在返回0
+TYPE key //返回key的类型
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;字符串&#34;&gt;字符串&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-redis&#34; data-lang=&#34;redis&#34;&gt;SET key val [EX seconds][PX milliseconds][NX|XX] //设置key的值为val(如果原来有值将会发生覆盖)，后面选项依次为以秒为单位的生存时间，以毫秒为单位的生存时间，当key不存在时才操作，当key存在时才操作，操作成功返回ok
+GET key //返回key的值，不存在时返回nil，如果key不是字符串则返回错误
+GETSET key val //返回key的旧值，设置新值，其他返回值与GET相同
+STRLEN key //返回key的长度，不存在返回0，非字符串返回错误
+APPEND key val //在key后面添加val，返回添加完之后key的长度
+SETRANGE key offset val //将key的[offset,offset+len(val)-1]处的字符用val来代替，如果key的长度不足offset则缺少部分用空字符填充，返回key的长度
+GETRANGE key start end //返回key的[start,end]部分的子串，负数参数(假设为-x)表示倒数第x个字符，注意start对应的字符必须在end之前否则返回空字符
+INCR key //将key对应的值加一，如果key不存在则先初始化为0再加一，返回加一后的值，如果key不能被解释成整数则返回错误
+INCRBY key val //将key的值增加val，其他的与INCR相同
+INCRBYFLOAT key val //同上，操作对象为浮点数
+//decr,decrby与对应的in-相同，注意没有decrbyfloat
+MSET key val[key val...] //同时设置多值，如果key存在则进行覆盖，为原子操作，总是返回ok
+MSETNX key val[key val...] //同时设置多值，如果key存在失败，为原子操作同时成功或同时失败，成功返回1失败返回0
+MGET key[key...] //同时返回多个值，某个key不存在则返回值中对应位置用nil代替
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;哈希表&#34;&gt;哈希表&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-redis&#34; data-lang=&#34;redis&#34;&gt;HSET hashtable field val //将哈希表hashtable中的field的值设置为val，哈希表不存在将会进行创建新表，如果field存在则发生覆盖，成功设置field返回1，如果发生覆盖返回0
+HSETNX hashtable field val //成功返回1失败0
+HGET hashtable field //如果哈希表或者field不存在返回nil
+HEXISTS hashtable field //存在1失败0
+HDEL hashtable field[field...] //删除哈希表中的field，不存在的将会忽略，返回成功删掉的数量
+HLEN hashtable //返回哈希表中域的数量
+HSTRLEN hashtable field //返回哈希表中与给定域相关联的字符串的长度
+HINCRBY hashtable field val //返回增加后的值
+HINCRBYFLOAT hashtable field val //返回增加后的值
+HMSET hashtable field val[field val...] //执行成功返回ok，如果hashtable不是哈希表则返回错误
+HMGET hashtable field[field...] //返回值，不存在该哈希表或者域则对应位置用nil代替
+HKEYS hashtable //返回该哈希表中所有的域，当哈希表不存在时返回一个空表
+HVALS hashtable //返回该哈希表中所有域的值，当哈希表不存在时返回一个空表
+HGETALL hashtable //返回哈希表中所有的域和值，排列方式：域值域值...
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;列表&#34;&gt;列表&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-redis&#34; data-lang=&#34;redis&#34;&gt;LPUSH key val[val...] //将一系列的值插入到列表的表头，依次插入，返回列表长度，如果key不是列表则返回错误
+LPUSHX key val[val....] //当且仅当key存在且为列表时进行操作，操作同上
+//RPUSH、RPUSHX与L-相同
+LPOP key //移除并返回表头元素，key不存在返回nil
+//RPOP返回表尾元素
+RPOPLPUSH key1 key2 //将key1的尾元素返回并把其从key1中移除增加到key2的表头，如果key1不存在返回nil并且不执行接下来的操作，为原子操作
+LREM key count val //如果count&amp;gt;0则从左往右移除min(count,num(val))个与val相等的值，count&amp;lt;0从右往左移除，count=0移除所有
+LLEN key //返回列表的长度，如果key不是列表则返回错误
+LINDEX key index //返回index处的值，注意下标从0开始，如果index&amp;gt;len(key)则返回nil
+LINSERT key BEFORE|AFTER pivot val //在pivot之前或之后插入val，成功返回列表长度，如果找不到pivot返回-1，如果key不是列表或不存在(不执行任何操作)返回0
+LSET key index val //将key中下标为index的值改为val，如果index超出范围或者key为空返回错误，否则返回ok
+LRANGE key start stop //返回[start,min(stop, len(key)]的元素
+LTRIM key start stop //移除非[start,min(stop, len(key)]的元素，返回ok
+BLPOP key[key...] timeout //阻塞式弹出，返回第一个非空列表的名字和表头，如果超时则返回nil和时间
+//RLPOP与BLPOP类似
+BRPOPLPUSH为阻塞式的RPOPLPUSH，返回值或nil+时间
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;集合&#34;&gt;集合&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-redis&#34; data-lang=&#34;redis&#34;&gt;SADD key member[member...] //往集合中增加元素，已有元素会被忽略，返回成功插入的元素数量
+SISMEMBER key member //判断member是否是key的成员
+SPOP key //从集合中随机移除并返回一个元素，如果key不存在或者是空集返回nil
+SRANDMEMBER key[count] //从key中随机返回值但不删除，如果没有count则返回一个，count为正数返回min(count,集合基数)个元素，不重复，count为负数返回count的绝对值个数，不保证不重复
+SREM key member[member] //移除集合中的member，不存在的将会被忽略，返回成功移除的数量
+MOVE key1 key2 member //从key1中移除member并加到key2中，成功返回1否则0
+SCARD key //返回集合基数
+SMEMBERS key //返回集合中所有的元素
+SINTER key[key...] //返回这些集合的交集
+SINTERSTORE destination key[key...] //返回交集数量并把交集存到destination中，如果destination存在则覆盖
+SUNION key[key...] //返回并集
+SUNIONSTORE destination key[key...] //返回并集数量并把并集存到destination中，如果destination存在则覆盖
+SDIFF member[member...] //返回第一个集合中的元素，这些元素是其他任何一个集合中都没有的
+SDIFFSTORE destination key[key...] //返回数量并将上面这个指令的结果存到destination，如果destination存在则覆盖
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;thrift&#34;&gt;Thrift&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cnblogs.com/cyfonly/p/6059374.html&#34;&gt;https://www.cnblogs.com/cyfonly/p/6059374.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;thrift语句与go语句的对应：&lt;a href=&#34;https://www.jianshu.com/p/6a651a67e65f&#34;&gt;https://www.jianshu.com/p/6a651a67e65f&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;消息队列&#34;&gt;消息队列&lt;/h2&gt;
+&lt;p&gt;消息队列：&lt;a href=&#34;https://zhuanlan.zhihu.com/p/55712984&#34;&gt;https://zhuanlan.zhihu.com/p/55712984&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;kafka：&lt;a href=&#34;https://zhuanlan.zhihu.com/p/37405836&#34;&gt;https://zhuanlan.zhihu.com/p/37405836&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;RocketMQ：&lt;a href=&#34;https://www.jianshu.com/p/824066d70da8&#34;&gt;https://www.jianshu.com/p/824066d70da8&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;proto&#34;&gt;Proto&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/jiaweiok123/article/details/87809831&#34;&gt;https://blog.csdn.net/jiaweiok123/article/details/87809831&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;使用链接&#34;&gt;使用链接&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://mholt.github.io/json-to-go/&#34;&gt;json转go&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.json.cn/&#34;&gt;json解析并格式化&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bejson.com/convert/unicode_chinese/&#34;&gt;unicode转中文&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.processon.com/;jsessionid=F5B394D95BB362C436E1C976C127D338.jvm1&#34;&gt;流程图&lt;/a&gt;&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://hdw2624913924.github.io/categories/%E5%B7%A5%E4%BD%9C/" term="工作" label="工作" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://hdw2624913924.github.io/tags/%E5%B7%A5%E4%BD%9C/" term="工作" label="工作" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">鱼眼图与六面图转换(python)</title>
+            <link rel="alternate" type="text/html" href="https://hdw2624913924.github.io/posts/%E9%B1%BC%E7%9C%BC%E5%9B%BE%E4%B8%8E%E5%85%AD%E9%9D%A2%E5%9B%BE%E8%BD%AC%E6%8D%A2python/" />
+            <id>https://hdw2624913924.github.io/posts/%E9%B1%BC%E7%9C%BC%E5%9B%BE%E4%B8%8E%E5%85%AD%E9%9D%A2%E5%9B%BE%E8%BD%AC%E6%8D%A2python/</id>
+            <updated>2020-07-10T10:27:07&#43;08:00</updated>
+            <published>2020-05-07T09:03:00&#43;00:00</published>
+            <author>
+                    <name>Dillonh</name>
+                    <uri>https://hdw2624913924.github.io/</uri>
+                    <email>hdw2624913924@gmail.com</email>
+                    </author>
+            <rights>[Dillonh](https://github.com/hdw2624913924)</rights><summary type="html">github地址：传送门</summary>
+            
+                <content type="html">&lt;p&gt;github地址：&lt;a href=&#34;https://github.com/sunset1995/py360convert&#34;&gt;传送门&lt;/a&gt;&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://hdw2624913924.github.io/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/" term="技术相关" label="技术相关" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://hdw2624913924.github.io/tags/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/" term="技术相关" label="技术相关" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">mac更新系统后环境变量突然没有了</title>
+            <link rel="alternate" type="text/html" href="https://hdw2624913924.github.io/posts/mac%E6%9B%B4%E6%96%B0%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E7%AA%81%E7%84%B6%E6%B2%A1%E6%9C%89%E4%BA%86/" />
+            <id>https://hdw2624913924.github.io/posts/mac%E6%9B%B4%E6%96%B0%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E7%AA%81%E7%84%B6%E6%B2%A1%E6%9C%89%E4%BA%86/</id>
+            <updated>2020-07-09T23:50:41&#43;08:00</updated>
+            <published>2020-03-27T09:00:00&#43;00:00</published>
+            <author>
+                    <name>Dillonh</name>
+                    <uri>https://hdw2624913924.github.io/</uri>
+                    <email>hdw2624913924@gmail.com</email>
+                    </author>
+            <rights>[Dillonh](https://github.com/hdw2624913924)</rights><summary type="html">今天上午更新完$mac$后下午发现好多环境突然没了，找了资料后才发现问题。。。 1.终……</summary>
+            
+                <content type="html">&lt;p&gt;今天上午更新完$mac$后下午发现好多环境突然没了，找了资料后才发现问题。。。
+1.终端从原来的$bash$变成了$zsh$，那么需要在$~/.zshrc$的最后面添加$source ~/.bash_profile$;
+2.通过$xcode$下载的环境没了，网上资料说每次更新后$xcode$都会被卸载(明明就有$xcode$这个软件，不太懂=_=)，因此我们需要重新下载$xcode：xcode-select --instal$&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://hdw2624913924.github.io/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/" term="技术相关" label="技术相关" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://hdw2624913924.github.io/tags/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/" term="技术相关" label="技术相关" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">大三弱鸡的面经</title>
+            <link rel="alternate" type="text/html" href="https://hdw2624913924.github.io/posts/%E5%A4%A7%E4%B8%89%E5%BC%B1%E9%B8%A1%E7%9A%84%E9%9D%A2%E7%BB%8F/" />
+            <id>https://hdw2624913924.github.io/posts/%E5%A4%A7%E4%B8%89%E5%BC%B1%E9%B8%A1%E7%9A%84%E9%9D%A2%E7%BB%8F/</id>
+            <updated>2020-07-10T10:27:02&#43;08:00</updated>
+            <published>2020-01-16T08:15:00&#43;00:00</published>
+            <author>
+                    <name>Dillonh</name>
+                    <uri>https://hdw2624913924.github.io/</uri>
+                    <email>hdw2624913924@gmail.com</email>
+                    </author>
+            <rights>[Dillonh](https://github.com/hdw2624913924)</rights><summary type="html">$hr$面的问题我就不写了，感觉只要好好答应该都没啥问题。 深信服算法岗一面($202……</summary>
+            
+                <content type="html">&lt;p&gt;$hr$面的问题我就不写了，感觉只要好好答应该都没啥问题。&lt;/p&gt;
+&lt;h2 id=&#34;深信服算法岗一面20200115过&#34;&gt;深信服算法岗一面($2020.01.15$，过)&lt;/h2&gt;
+&lt;p&gt;1.自我介绍；&lt;/p&gt;
+&lt;p&gt;2.map使用什么实现的，hashmap和unordered_map呢？&lt;/p&gt;
+&lt;p&gt;3.给你n个匹配串和一个文本串怎么找出每个串出现了几次，我说ac自动机，然后问了我ac自动机建树过程；&lt;/p&gt;
+&lt;p&gt;3.给你一个数组(100w个数)，找一个子段使得他的和为x(给定的)；如果数全是正数怎么写(要求on)，有正有负(没有要求on)呢？&lt;/p&gt;
+&lt;p&gt;4.n个人站在一排，每次告诉你出去第几位，然后问谁在队列里面，譬如1 2 3 4，出去第二个人，再出去第二个人，这样只剩下1 4；&lt;/p&gt;
+&lt;p&gt;5.100级台阶，每次可以跳一级或者两级，问方案数，如果两级只能0用十次呢？&lt;/p&gt;
+&lt;p&gt;6.c程序编译流程了解吗(源代码最终怎么变成可执行文件)？&lt;/p&gt;
+&lt;p&gt;7.指针了解吗，用的多吗？我说不了解，然后就没再问了；&lt;/p&gt;
+&lt;p&gt;8.10门课程，要你选出一个子集使得这个子集的分数之和恰好位100，我说状压dp然后说了下思路又要我用递归实现；&lt;/p&gt;
+&lt;p&gt;9.你有什么想问的吗？&lt;/p&gt;
+&lt;h2 id=&#34;深信服算法岗二面20200116过&#34;&gt;深信服算法岗二面($2020.01.16$，过)&lt;/h2&gt;
+&lt;p&gt;1.自我介绍；&lt;/p&gt;
+&lt;p&gt;2.昨天问过的10个正整数，找一个子集使得和为100；&lt;/p&gt;
+&lt;p&gt;3.给你1000条开口向下的抛物线，然后要你找一个点使得这个点被所有的抛物线覆盖，然后y要越大越好，求最大的$y$；&lt;/p&gt;
+&lt;p&gt;4.求$x^2=a(%p)$，给你a和p，那么$x^3=a(%p)$呢，不用高次剩余呢？不用高次剩余不会，那么$a^x=b(%p)$求x呢？$(a^x+b^y)=c(%p),x\in[1,100],y\leq 10w$？那么x是1w呢？&lt;/p&gt;
+&lt;p&gt;5.说说你的优点；&lt;/p&gt;
+&lt;p&gt;6.给你一个10w*10w的矩阵，然后$(x,y)$处的值为$ax^2+bx+cy$，然后求第k大；&lt;/p&gt;
+&lt;p&gt;7.n个圆，只有包含和相离，然后问你从s走到t至少要穿过多少个圆？&lt;/p&gt;
+&lt;p&gt;8.你什么时候能够入职？&lt;/p&gt;
+&lt;p&gt;2是一面被问过的题，然后一面的3和二面的3、7都是朋友被问过的，只不过那个圆判断包含部分的扫描线咋写没想出来然后刚好被面试官问了扫描线部分的细节(GG)，二次剩余三次剩余部分答得不好，其他的好像都是直接一眼秒了，希望能过吧QAQ（ps.二面过了&lt;/p&gt;
+&lt;h2 id=&#34;字节跳动后台开发一面20200303过&#34;&gt;字节跳动后台开发一面($2020.03.03$，过)&lt;/h2&gt;
+&lt;p&gt;$1.$有一个数组$a_i(a_i\in[-100,100])$，求一个最大乘积子数组，并输出乘积。&lt;/p&gt;
+&lt;p&gt;$2.$有一个高速公路(单行道)，每辆车速度$v_i$，不能超车，追上的要减速跟在后面(无缝衔接)，初始间距为$s_i&amp;gt;0$，问无限长时间后高速公路上有几坨车。&lt;/p&gt;
+&lt;p&gt;$3.$给你多个区间，将相交的区间合并，输出最后区间个数。&lt;/p&gt;
+&lt;p&gt;$4.$给你一个数组$a_i(a_i\in[0,100])$，求一个子数组使得子数组最小值乘以子数组的和最大，证明单调栈写法的复杂度。&lt;/p&gt;
+&lt;p&gt;$5.$给你一棵点权树，每条路径的价值是路径上所有点的乘积，每棵子树的价值是子树中最大的路径价值，求所有子树的价值和。&lt;/p&gt;
+&lt;h2 id=&#34;字节跳动后台开发二面20200303过&#34;&gt;字节跳动后台开发二面($2020.03.03$，过)&lt;/h2&gt;
+&lt;p&gt;$1.$给你一个长度为$n$的单调上升数组，找离$k$($k$保证在数组内)值最近的$c$个数，输出这$c$个数中的最小值和最大值。&lt;/p&gt;
+&lt;p&gt;如：$1,2,3,4,7,8,10,11,k=7,c=3$，那么与$7$最近的$3$个数是$4,8,10$，输出$[4,10]$。&lt;/p&gt;
+&lt;p&gt;$2.$给你一个有向图，输出每个环。&lt;/p&gt;
+&lt;p&gt;$3.$给你一些敏感词，然后再给你一个串，问这个串是否含有敏感词，$AC$自动机与$hash$比有什么优势。&lt;/p&gt;
+&lt;p&gt;$4.$	给你主播的礼物数，问你这个主播的排名(多次插入和查询)，再问你排名为$[100000,100100]$的主播是谁，复杂度呢。&lt;/p&gt;
+&lt;h2 id=&#34;字节跳动后台开发三面20200304过&#34;&gt;字节跳动后台开发三面($2020.03.04$，过)&lt;/h2&gt;
+&lt;p&gt;$ps.$下面的样例均不是面试时的样例。&lt;/p&gt;
+&lt;p&gt;$1.$给你一个由数字构成的串，然后要你划分成合理的$(x,y)$坐标，下面是一个例子：&lt;/p&gt;
+&lt;p&gt;$(1023)$可行的划分为：$(1,0.23),(10,23),(10,2.3),(102,3),(1.02,3),(10.2,3)$。&lt;/p&gt;
+&lt;p&gt;注意$0.0,1.000,00.1$都是不合法的。&lt;/p&gt;
+&lt;p&gt;$ps.$面完和朋友讲述题意，朋友告诉我这是&lt;a href=&#34;https://leetcode-cn.com/problems/ambiguous-coordinates/&#34;&gt;leetcode816&lt;/a&gt;，唉，还是刷题刷太少啊。&lt;/p&gt;
+&lt;p&gt;$2.$给你一个字符矩阵，然后多次询问，每次询问问你能不能在这个字符矩阵中一笔画构成这个串，注意不能走重复的格子，一笔画只能上下左右移动一个单位。&lt;/p&gt;
+&lt;p&gt;$ABCD$&lt;/p&gt;
+&lt;p&gt;$BACE$&lt;/p&gt;
+&lt;p&gt;$BDEA$&lt;/p&gt;
+&lt;p&gt;询问：$ABAD$输出$true$;&lt;/p&gt;
+&lt;p&gt;$ABCB$输出$false$。&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://hdw2624913924.github.io/categories/%E5%B7%A5%E4%BD%9C/" term="工作" label="工作" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://hdw2624913924.github.io/tags/%E5%B7%A5%E4%BD%9C/" term="工作" label="工作" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+</feed>
